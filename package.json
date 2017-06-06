@@ -1,6 +1,6 @@
 {
   "name": "clever-bootstrap-4-admin-template",
-  "version": "0.1",
+  "version": "0.0.1",
   "main": "lib",
   "repository": "dav1d8/clever-bootstrap-4-admin-template",
   "dependencies": {
