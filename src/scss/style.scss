@@ -1,0 +1,123 @@
+/**
+ * GenesisUI - Bootstrap 4 Admin Template
+ * @version v1.8.1
+ * @link https://genesisui.com
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license Commercial
+ */
+// Core variables and mixins
+@import "bootstrap-variables";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "custom-variables";
+@import "../../node_modules/bootstrap/scss/_mixins";
+@import "core/_mixins";
+
+// Reset and dependencies
+@import "../../node_modules/bootstrap/scss/_normalize";
+@import "../../node_modules/bootstrap/scss/_print";
+
+// Core CSS
+@import "../../node_modules/bootstrap/scss/_reboot";
+@import "../../node_modules/bootstrap/scss/_type";
+@import "../../node_modules/bootstrap/scss/_images";
+@import "../../node_modules/bootstrap/scss/_code";
+@import "../../node_modules/bootstrap/scss/_grid";
+
+@import "../../node_modules/bootstrap/scss/_tables";
+@import "bootstrap_custom/_tables";
+
+@import "../../node_modules/bootstrap/scss/_forms";
+
+@import "../../node_modules/bootstrap/scss/_buttons";
+@import "bootstrap_custom/_buttons";
+
+// Components
+@import "../../node_modules/bootstrap/scss/_transitions";
+
+@import "../../node_modules/bootstrap/scss/_dropdown";
+@import "bootstrap_custom/_dropdown";
+
+@import "../../node_modules/bootstrap/scss/_button-group";
+
+@import "../../node_modules/bootstrap/scss/_input-group";
+@import "bootstrap_custom/_input-group";
+
+//@import "custom-forms";
+
+@import "../../node_modules/bootstrap/scss/_nav";
+@import "bootstrap_custom/_nav";
+
+@import "../../node_modules/bootstrap/scss/_navbar";
+@import "bootstrap_custom/_navbar";
+
+@import "../../node_modules/bootstrap/scss/_card";
+@import "bootstrap_custom/_card";
+
+@import "../../node_modules/bootstrap/scss/_breadcrumb";
+@import "bootstrap_custom/_breadcrumb";
+
+@import "../../node_modules/bootstrap/scss/_pagination";
+
+@import "../../node_modules/bootstrap/scss/_badge";
+@import "bootstrap_custom/_badge";
+
+//@import "jumbotron";
+@import "../../node_modules/bootstrap/scss/_alert";
+
+@import "../../node_modules/bootstrap/scss/_progress";
+@import "bootstrap_custom/_progress";
+
+@import "../../node_modules/bootstrap/scss/_media";
+@import "../../node_modules/bootstrap/scss/_list-group";
+@import "../../node_modules/bootstrap/scss/_responsive-embed";
+@import "../../node_modules/bootstrap/scss/_close";
+
+// Components w/ JavaScript
+@import "../../node_modules/bootstrap/scss/_modal";
+@import "bootstrap_custom/_modal";
+
+@import "../../node_modules/bootstrap/scss/_tooltip";
+@import "../../node_modules/bootstrap/scss/_popover";
+@import "../../node_modules/bootstrap/scss/_carousel";
+
+// Utility classes
+@import "../../node_modules/bootstrap/scss/_utilities";
+
+// Vendors Styles
+@import "vendors/_vendors";
+
+// CoreUI Styles
+// Additional typography
+@import "core/_typography";
+
+// Animations
+@import "core/_animate";
+
+// Core files
+@import "core/_grid";
+@import "core/_layout";
+@import "core/_navigation";
+@import "core/_aside";
+@import "core/_loading";
+@import "core/_widgets";
+@import "core/_footer";
+@import "core/_buttons";
+@import "core/_others";
+@import "core/_breadcrumb-menu";
+@import "core/_avatars";
+@import "core/_callout";
+@import "core/_switches";
+@import "core/_charts";
+@import "core/_utilities-border";
+
+// Temporary fixes
+@import "core/_temp";
+
+// Mobile View
+@import "core/_mobile";
+
+// Custom styles
+@import "custom";
+
+// UI Kits
+@import "uikits/_uikits";
