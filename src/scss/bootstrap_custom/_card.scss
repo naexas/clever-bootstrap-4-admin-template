@@ -50,15 +50,16 @@
     }
   }
 
-  .btn {
-    margin-top: - $btn-padding-y;
-  }
-  .btn-sm {
-    margin-top: - $btn-padding-y-sm;
-  }
-  .btn-lg {
-    margin-top: - $btn-padding-y-lg;
-  }
+  // isn't good for input-group-btn
+  //.btn {
+  //  margin-top: - $btn-padding-y;
+  //}
+  //.btn-sm {
+  //    margin-top: - $btn-padding-y-sm;
+  //}
+  //.btn-lg {
+  //  margin-top: - $btn-padding-y-lg;
+  //}
 }
 //
 .card-footer {
